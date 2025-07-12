@@ -18,6 +18,13 @@ export default function ClaseGratis() {
         src="https://assets.calendly.com/assets/external/widget.js"
         strategy="lazyOnload"
       />
+      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+      <a
+        href="/"
+        className="mt-6 inline-block bg-gray-200 text-black py-2 px-4 rounded-xl text-center hover:bg-gray-300 transition"
+      >
+        ← Volver al inicio
+      </a>
     </>
   );
 }
