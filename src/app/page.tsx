@@ -23,7 +23,7 @@ export default function Home() {
           <a href="/reservar" className="bg-gray-200 text-black py-3 rounded-xl text-center">
             Reservar horario
           </a>
-          <a href="/suscribirme" className="bg-gray-200 text-black py-3 rounded-xl text-center">
+          <a href="/entrenamiento-semanal" className="bg-gray-200 text-black py-3 rounded-xl text-center">
             Unirme semanalmente
           </a>
           <button
