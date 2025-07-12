@@ -8,11 +8,13 @@ export default function Reservar() {
       </h1>
 
       {/* Calendly inline widget */}
-      <div
-        className="calendly-inline-widget mx-auto"
-        data-url="https://calendly.com/marito-dev/sesion-personal-60"
-        style={{ minWidth: '320px', height: '700px' }}
-      />
+      <div className="max-w-md w-full mx-auto px-4">
+        <div
+          className="calendly-inline-widget w-full"
+          data-url="https://calendly.com/marito-dev/sesion-personal-60"
+          style={{ minWidth: '320px', height: '700px' }}
+        />
+      </div>
 
       {/* Calendly script */}
       <Script

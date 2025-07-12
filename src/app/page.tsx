@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-4 relative">
+      <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 sm:px-4 relative">
         <h1 className="text-4xl font-bold text-center mb-8">Ronald Fitness Time</h1>
 
         <img
@@ -16,7 +16,7 @@ export default function Home() {
           className="rounded-xl mb-8 w-full max-w-md"
         />
 
-        <div className="flex flex-col gap-4 w-full max-w-xs">
+        <div className="flex flex-col gap-4 w-full max-w-xs mx-auto">
           <a href="/entrenamientos" className="bg-gray-200 text-black py-3 rounded-xl text-center">
             Ver entrenamientos
           </a>
